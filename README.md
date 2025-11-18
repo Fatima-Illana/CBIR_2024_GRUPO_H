@@ -1,6 +1,6 @@
 # CONTENT BASED IMAGE RETRIEVAL FOR ART MOVEMENT STYLE CLASSIFICATION
 
-This project implements a **Content-Based Image Retrieval (CBIR)** system focused on artworks classification. The objective is to retrieve images that belong to the same art movement that the one given as input by using different feature extraction techniques and machine learning.
+This project implements a **Content-Based Image Retrieval (CBIR)** system focused on artworks classification. The objective is to retrieve images that belong to the same art movement as the one given as input by using different feature extraction techniques and machine learning.
 
 ## Project Preview
 
