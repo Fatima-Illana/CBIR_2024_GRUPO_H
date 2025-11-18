@@ -4,6 +4,8 @@ This project implements a **Content-Based Image Retrieval (CBIR)** system focuse
 
 ## Project Preview
 
+<img src="./Images/Interfaz_CBIR.png" alt="Interface" width="1000"/>
+
 ## Project Description
 
 ## Styles Considered
@@ -15,6 +17,8 @@ This project implements a **Content-Based Image Retrieval (CBIR)** system focuse
 - `Rococo`
 - `Western Medieval`
 
+<img src="./Images/Movimientos_CBIR.png" alt="ArtMovements" width="1000"/>
+
 ## Feature Extraction Methods Used
 
 - `Color Histogram`
@@ -22,6 +26,8 @@ This project implements a **Content-Based Image Retrieval (CBIR)** system focuse
 - `Bag of Words`
 - `Convolutional Neural Network (CNN)`: Specifically VGG19.
 - `Autoencoder`
+
+<img src="./Images/Autoencoder_CBIR.png" alt="Autoencoder" width="1000"/>
 
 ## Search Method:
 
