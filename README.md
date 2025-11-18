@@ -6,13 +6,17 @@ This project implements a **Content-Based Image Retrieval (CBIR)** system focuse
 
 ## Project Description
 
-## Methods Used
+## Feature Extraction Methods Used
 
 - `Color Histogram`
 - `Textures Extractor`
 - `Bag of Words`
 - `Convolutional Neural Network (CNN)`: Specifically VGG19.
 - `Autoencoder`
+
+## Search Method:
+
+- `Facebook AI Similarity Search (FAISS)`: for fast searches
 
 ## Results
 
