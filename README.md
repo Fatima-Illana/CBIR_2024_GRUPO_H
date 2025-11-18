@@ -1,20 +1,61 @@
-# Sistema CBIR para Imágenes Artísticas
+# CONTENT BASED IMAGE RETRIEVAL FOR ART MOVEMENT STYLE CLASSIFICATION
 
-Este proyecto implementa un sistema de Recuperación de Imágenes Basado en Contenido (CBIR) orientado a obras de arte. Permite buscar y recuperar imágenes similares usando técnicas de extracción de características y aprendizaje automático.
+This project implements a **Content-Based Image Retrieval (CBIR)** system focused on artworks classification. The objective is to retrieve images that belong to the same art movement that the one given as input by using different feature extraction techniques and machine learning.
 
-## Aspectos a tener en cuenta para la ejecución
-- Para ejecutarlo basta con ejecutar el archivo Interfaz.py que contiene el código de la interfaz.
-- Comando de ejecución: py -m streamlit run interfaz.py
-- Verisón keras utilizada: 3.7.0
-- Imágenes de prueba para ingresar en la interfaz están disponibles en la carpeta Test del DatasetArteTrainTest.zip
-- Los ficheros de extractores contiene el proceso seguido para la generación de los índices.
-- El fichero Bag_Of_Words.npy contiene el diccionario de palabras visuales utilizado en el extractor 3 (Bag_Of_Words).
-- El fichero autoencoder.keras contiene el modelo generado para el extractor 5 (Autoencoder).
-- El cuaderno de preprocesado contiene el proceso de división del dataset y la creación de la base de datos.
-- El fichero resultados.ipynb contiene los cálculos realizados para extraer los resultados.
-- El fichero ResultadosCBIR.xlxs contiene los resultados obtenidos de todas las imágenes de test.
-- La carpeta Dataset Arte contiene todas las imágenes utilizadas, separadas por movimientos.
-- La carpeta DatasetArteTrainTest contiene las imágenes ya divididas en Train y Test y con el nombre cambiado. 
+## Project Preview
+
+## Project Description
+
+## Methods Used
+
+- `Color Histogram`
+- `Textures Extractor`
+- `Bag of Words`
+- `Convolutional Neural Network (CNN)`: Specifically VGG19.
+- `Autoencoder`
+
+## Results
+
+## Files
+
+- **database Folder**: Folder with the files used to work with the database of images and the indexes.
+- **Bag_Of_Words.npy**: Contains the visual words dictionary used in Extractor 3 (Bag_Of_Words).
+- **Dataset Arte.zip**: Contains all the images used, organized by art movements.  
+- **DatasetArteTrainTest.zip**: Contains the images already split into Train and Test sets with renamed files.
+- The extractor files contain the processes followed to generate the indexes:
+  - **Extractor1-HistogramaColor.ipynb**
+  - **Extractor2-Texturas.ipynb**
+  - **Extractor3-BagOfWords.ipynb**
+  - **Extractor4-CNN-VGG19.ipynb**
+  - **Extractor5-Autoencoder.ipynb**
+- **Interfaz.py**: Contains the interface code.
+- **PreprocesadoImagenes.ipynb**: Contains the process of dataset splitting and database creation.  
+- **Resultados.ipynb**: Contains the calculations performed to extract the results.  
+- **ResultadosCBIR.xlsx**: Contains the results obtained for all test images.  
+- **autoencoder.keras**: Contains the model generated for Extractor 5 (Autoencoder).
+- **CBIR_Report.pdf**: Report with all the process followed to preprocess the images, create each extractor and the results obtained.
+
+The contents are only available in spanish.
+
+## Execution
+
+- To run the project, simply execute the file `Interfaz.py`, which contains the interface code.  
+- Execution command: `py -m streamlit run interfaz.py`   
+- Sample images to use in the interface are available in the `Test` folder of `DatasetArteTrainTest.zip`.      
+
+Download all files and store them in the same folder. Otherwise, modify the file paths in the main code and run it.
+
+## Requirements
+
+- Python 3.7 or higher
+- Keras version used: 3.7.0 
 
 ## Dataset
-- **Fuente**: Dataset reducido de [WikiArt Art Movements/Styles](https://www.kaggle.com/datasets/sivarazadi/wikiart-art-movementsstyles).
+
+- **Source**: Reduced dataset from [WikiArt Art Movements/Styles](https://www.kaggle.com/datasets/sivarazadi/wikiart-art-movementsstyles)
+
+## Authors
+
+- [Fátima Fuchun Illana Guerra](https://github.com/Fatima-Illana)
+- [Cristina Fernández Gómez](https://github.com/crisfernandez)
+- [Ester Esteban Bruña](https://github.com/esteresteban)
