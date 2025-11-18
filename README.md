@@ -6,6 +6,15 @@ This project implements a **Content-Based Image Retrieval (CBIR)** system focuse
 
 ## Project Description
 
+## Styles Considered
+
+- `Art Nouveau`
+- `Baroque`
+- `Japanese Art`
+- `Realism`
+- `Rococo`
+- `Western Medieval`
+
 ## Feature Extraction Methods Used
 
 - `Color Histogram`
