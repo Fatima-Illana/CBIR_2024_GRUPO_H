@@ -1,5 +1,0 @@
-database/feat_extract_4.index filter=lfs diff=lfs merge=lfs -text
-database/feat_extract_5.index filter=lfs diff=lfs merge=lfs -text
-Dataset[[:space:]]Arte.zip filter=lfs diff=lfs merge=lfs -text
-Dataset[[:space:]]Art.zip filter=lfs diff=lfs merge=lfs -text
-DatasetArteTrainTest.zip filter=lfs diff=lfs merge=lfs -text
