@@ -62,7 +62,7 @@ Sample of the results obtained with Autoencoder:
 ```text
 🎨 CONTENT BASED IMAGE RETRIEVAL FOR ART MOVEMENT IDENTIFICATION
 ├── 📁 Code
-│   ├── 📁 database Folder
+│   ├── 📁 database
 │   │       → Folder with the files used to work with the image database and the indexes.
 │   ├── Bag_Of_Words.npy
 │   │       → Contains the visual words dictionary used in Extractor 3 (Bag of Words).
