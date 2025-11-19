@@ -1,12 +1,18 @@
-# CONTENT BASED IMAGE RETRIEVAL FOR ART MOVEMENT STYLE CLASSIFICATION
+# CONTENT BASED IMAGE RETRIEVAL FOR ART MOVEMENT IDENTIFICATION
 
-This project implements a **Content-Based Image Retrieval (CBIR)** system focused on artworks classification. The objective is to retrieve images that belong to the same art movement as the one given as input by using different feature extraction techniques and machine learning.
+This project implements a **Content-Based Image Retrieval (CBIR)** system focused on art movement similarity search. The objective is to retrieve images that belong to the same art movement as the one given as input by using machine learning and different feature extraction techniques.
 
 ## Project Preview
 
 <img src="./Images/Interfaz_CBIR.png" alt="Interface" width="1000"/>
 
 ## Project Description
+
+The aim of this project is to facilitate an interface that, based on a given work of art image, retrieves similiar images stored in the database based on content. The main objective is to return images that belogn to the same art movement, although we have seen that it is not always the case, as the content of the images is not always related to the artistic style. 
+
+The presented tool allows to select 5 different feature extraction methods, some of them working better than others in specific art movements. Once you have selected the method, you will have to upload an artistic image and you will be able to select the specific area you want the system to take into account.
+
+Once the extraction of images is done you will receive 11 images, along with the corresponding precision related to the number of images returned. Most methods will lose accuracy as the number of matches increases.
 
 ## Styles Considered
 
@@ -19,10 +25,10 @@ This project implements a **Content-Based Image Retrieval (CBIR)** system focuse
 
 <img src="./Images/Movimientos_CBIR.png" alt="ArtMovements" width="1000"/>
 
-## Feature Extraction Methods Used
+## Feature Extraction Methods
 
 - `Color Histogram`
-- `Textures Extractor`
+- `Texture Histogram`
 - `Bag of Words`
 - `Convolutional Neural Network (CNN)`: Specifically VGG19.
 - `Autoencoder`
@@ -34,6 +40,22 @@ This project implements a **Content-Based Image Retrieval (CBIR)** system focuse
 - `Facebook AI Similarity Search (FAISS)`: for fast searches
 
 ## Results
+
+As we have seen, the method that obtains the best results is the Autoencoder.
+
+| **EXTRACTOR** | **AVERAGE ACCURACY** |
+|:----------:|:-----------:|
+| Color Histogram   | 0.65    |
+| Texture Histogram   | 0.27    |
+| Bag of Words   | 0.44    |
+| VGG19   | 0.53    |
+| Autoencoder   | 0.83    |
+
+Sample of the results obtained with Autoencoder:
+
+
+
+*A deeper analysis of the results obtained is detailed in the report.*
 
 ## Files
 
@@ -78,3 +100,7 @@ Download all files and store them in the same folder. Otherwise, modify the file
 - [Fátima Fuchun Illana Guerra](https://github.com/Fatima-Illana)
 - [Cristina Fernández Gómez](https://github.com/crisfernandez)
 - [Ester Esteban Bruña](https://github.com/esteresteban)
+
+## Interface Code Author
+
+- [Ángel Mario García Pedrero](https://github.com/amgp-upm)
