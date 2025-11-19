@@ -64,37 +64,39 @@ Sample of the results obtained with Autoencoder:
 ├── 📁 Code
 │   ├── 📁 database
 │   │       → Folder with the files used to work with the image database and the indexes.
-│   ├── Bag_Of_Words.npy
+│   ├── 🐍 Bag_Of_Words.ipynb
 │   │       → Contains the visual words dictionary used in Extractor 3 (Bag of Words).
-│   ├── Dataset Arte.zip
+│   ├── 🐍 Dataset Arte.zip
 │   │       → Contains all the images used, organized by art movements.
-│   ├── DatasetArteTrainTest.zip
+│   ├── 🐍 DatasetArteTrainTest.zip
 │   │       → Contains the images already split into Train and Test sets with renamed files.
-│   ├── Extractor1-HistogramaColor.ipynb
+│   ├── 🐍 Extractor1-HistogramaColor.ipynb
 │   │       → Notebook with the process followed to generate indexes using Color Histograms.
-│   ├── Extractor2-Texturas.ipynb
+│   ├── 🐍 Extractor2-Texturas.ipynb
 │   │       → Notebook with the process followed to generate indexes using Texture features.
-│   ├── Extractor3-BagOfWords.ipynb
+│   ├── 🐍 Extractor3-BagOfWords.ipynb
 │   │       → Notebook implementing Bag-of-Words and generating its corresponding indexes.
-│   ├── Extractor4-CNN-VGG19.ipynb
+│   ├── 🐍 Extractor4-CNN-VGG19.ipynb
 │   │       → Notebook with the feature extraction process using CNN VGG-19.
-│   ├── Extractor5-Autoencoder.ipynb
+│   ├── 🐍 Extractor5-Autoencoder.ipynb
 │   │       → Notebook that trains the Autoencoder and generates the indexes for Extractor 5.
-│   ├── Interfaz.py
+│   ├── 🐍 Interfaz.py
 │   │       → Contains the interface code used to perform CBIR queries.
-│   ├── PreprocesadoImagenes.ipynb
+│   ├── 🐍 PreprocesadoImagenes.ipynb
 │   │       → Contains the process of dataset splitting and database creation.
-│   ├── Resultados.ipynb
+│   ├── 🐍 Resultados.ipynb
 │   │       → Contains the calculations performed to extract and evaluate the results.
-│   ├── ResultadosCBIR.xlsx
+│   ├── 🟩 ResultadosCBIR.xlsx
 │   │       → Contains the results obtained for all test images.
-│   └── autoencoder.keras
-│           → Contains the trained Autoencoder model used in Extractor 5.
+│   ├── 🧠 autoencoder.keras
+│   │       → Contains the trained Autoencoder model used in Extractor 5.
+│   └── 🟩 ResultadosCBIR.xlsx
+│           → Contains the results obtained for all test images.
 ├── 📁 Images
 │       → Folder containing example images stored for visualization or demonstration.
 ├── 📄 README.md
 │       → Documentation of the project.
-└── 📄 CBIR_Report.pdf
+└── 🟥 CBIR_Report.pdf
         → Full report of the preprocessing steps, extractor implementations, and obtained results.
 ```
 
