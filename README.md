@@ -66,9 +66,9 @@ Sample of the results obtained with Autoencoder:
 │   │       → Folder with the files used to work with the image database and the indexes.
 │   ├── 🐍 Bag_Of_Words.ipynb
 │   │       → Contains the visual words dictionary used in Extractor 3 (Bag of Words).
-│   ├── 🐍 Dataset Arte.zip
+│   ├── 🖼️ Dataset Arte.zip
 │   │       → Contains all the images used, organized by art movements.
-│   ├── 🐍 DatasetArteTrainTest.zip
+│   ├── 🖼️ DatasetArteTrainTest.zip
 │   │       → Contains the images already split into Train and Test sets with renamed files.
 │   ├── 🐍 Extractor1-HistogramaColor.ipynb
 │   │       → Notebook with the process followed to generate indexes using Color Histograms.
