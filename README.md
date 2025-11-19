@@ -53,7 +53,7 @@ As we have seen, the method that obtains the best results is the Autoencoder.
 
 Sample of the results obtained with Autoencoder:
 
-
+<img src="./Images/Resultados_Autoencoder.png" alt="Results" width="1000"/>
 
 *A deeper analysis of the results obtained is detailed in the report.*
 
