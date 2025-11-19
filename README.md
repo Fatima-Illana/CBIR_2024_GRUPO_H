@@ -43,6 +43,8 @@ Once the extraction of images is done you will receive 11 images, along with the
 
 As we have seen, the method that obtains the best results is the Autoencoder.
 
+<div align="center">
+
 | **EXTRACTOR** | **AVERAGE ACCURACY** |
 |:----------:|:-----------:|
 | Color Histogram   | 0.65    |
@@ -50,6 +52,8 @@ As we have seen, the method that obtains the best results is the Autoencoder.
 | Bag of Words   | 0.44    |
 | VGG19   | 0.53    |
 | Autoencoder   | 0.83    |
+
+</div>
 
 Sample of the results obtained with Autoencoder:
 
