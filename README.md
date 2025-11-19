@@ -64,7 +64,7 @@ Sample of the results obtained with Autoencoder:
 ├── 📁 Code
 │   ├── 📁 database
 │   │       → Folder with the files used to work with the image database and the indexes.
-│   ├── 🐍 Bag_Of_Words.ipynb
+│   ├── 🐍 Bag_Of_Words.npy
 │   │       → Contains the visual words dictionary used in Extractor 3 (Bag of Words).
 │   ├── 🖼️ Dataset Arte.zip
 │   │       → Contains all the images used, organized by art movements.
@@ -88,16 +88,14 @@ Sample of the results obtained with Autoencoder:
 │   │       → Contains the calculations performed to extract and evaluate the results.
 │   ├── 🟩 ResultadosCBIR.xlsx
 │   │       → Contains the results obtained for all test images.
-│   ├── 🧠 autoencoder.keras
-│   │       → Contains the trained Autoencoder model used in Extractor 5.
-│   └── 🟩 ResultadosCBIR.xlsx
-│           → Contains the results obtained for all test images.
+│   └── 🧠 autoencoder.keras
+│           → Contains the trained Autoencoder model used in Extractor 5.
 ├── 📁 Images
 │       → Folder containing example images stored for visualization or demonstration.
-├── 📄 README.md
-│       → Documentation of the project.
-└── 🟥 CBIR_Report.pdf
-        → Full report of the preprocessing steps, extractor implementations, and obtained results.
+├── 🟥 CBIR_Report.pdf
+│       → Full report of the preprocessing steps, extractor implementations, and obtained results.
+└── 📄 README.md
+        → Documentation of the project.
 ```
 
 The contents are only available in spanish.
